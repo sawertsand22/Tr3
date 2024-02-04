@@ -2,6 +2,7 @@ header
 {
  display: grid;
  grid-template-columns: 1fr 1fr;
+ background-color: white;
 }
 .nav_parent
 {
@@ -30,7 +31,7 @@ header
 {
     max-width: 1440px;
     margin: auto;
-    background-color: #fff;
+    background-color: #EBEBEB;
 }
 .block1st
 {
@@ -42,7 +43,9 @@ header
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 5rem;
+    
+    padding-top: 5rem;
+    background-color: white;
     
 }
 .btn_main
@@ -77,4 +80,20 @@ h2
 body
 {
     background-color: grey;
+}
+.par_block2
+{
+    
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+.par_nav_block2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.child_nav_block2
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
